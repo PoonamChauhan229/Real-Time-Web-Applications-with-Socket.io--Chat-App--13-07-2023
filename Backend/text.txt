@@ -1,0 +1,40 @@
+src folder
+index.js
+
+Challenge 1:
+Create an Express Web server 
+    > Initiliaze npm and install Express
+    >Serve up publc directory
+    >listen at port 3000
+    >Create an index.html and render ChatApp to the screen
+    >Test your Work !
+
+npm init -y 
+npm i express
+
+Challenge 2:
+Set up script in package.json
+    >Create a start script to start the app using node
+    >Install nodemon and a devlpoment dependancy
+    >Create an dev script to start the app using nodemon
+    >Run the scripts
+
+npm i nodemon --save-dev
+ "scripts": {
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+
+Test
+>npm run start
+>npm run dev
+
+
+WebSocket Protocol:
+Here, we are going to create an Real time App 
+Web sockets can be used with other programming languages
+
+Now, we will be using websockets with NodeJS.
+
+What websockets are and how they are going to work.
+
